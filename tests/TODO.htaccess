@@ -1,0 +1,8 @@
+
+
+ AuthUserFile /Network/Servers/galveston.math.ttu.edu/Volumes/Kempner/Users/gbornia/Sites/.htpasswd
+ AuthGroupFile /dev/null
+ AuthName EnterPassword
+ AuthType Basic
+
+ require valid-user

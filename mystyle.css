@@ -1,0 +1,242 @@
+html {
+  
+}
+
+body {
+  
+   width: 100%;   /*Is this needed?*/
+
+/*    max-width: 1080px;  /*old way for centering  */
+/*  center the body */
+/*    margin: 0 auto;  */
+
+   /*padding-top: 50px;*/ /*old way for fixed nav bar*/
+
+/* font-size: large; */
+/* font-family: "Lucida Console", Monaco, monospace; */
+/* font-family: "Courier New", Courier, monospace; */
+/* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+/* font-family: Verdana, Geneva, sans-serif; */
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+/*    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; */
+/*    font-weight: 700; */
+   color: black;
+
+/*   background-color: #faebd7; */ /*alternative to image*/
+/*   background: linear-gradient(to right, #faebd7, white); */
+     background-image: url('./img/bg-gray.png');
+
+}   
+ 
+
+.semester {
+    font-weight: bold; 
+}
+
+.intro-divider {
+    width: 30%;
+    border-top: 1px solid #F8F8F8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+/* img.giorgio { */
+/*      height: 225px; */
+/*      width: 150px;*/
+/*      float: left; */
+/*      margin-left:   10px; */
+/*      margin-right:  10px; */
+/*      margin-top:    10px; */
+/*      margin-bottom: 10px; */
+/* } */
+
+img.dozza {
+     margin: 0 auto;  /*to center*/
+/*      margin-left:   10px; */
+/*      margin-right:  10px; */
+     margin-top:    10px;
+     margin-bottom: 10px;
+     max-width: 100%;  /*this way images are responsive on mobile devices!*/
+}
+
+
+/*  Navbar ========= */
+
+/*.dropdown:hover .dropdown-menu {
+display: block;
+}*/
+
+#compensate_navbar_height {
+
+  height: 50px;  /*I should make this dynamic*/
+
+}
+
+#my_nav {
+   background-color: #303030;
+   font-family: "Courier Bold", Courier, monospace;  /*this one acts on the $HOME only*/
+   font-weight: bold;
+/* height: 100px; */
+   border: 0px;
+   color: #00FF00;  /*not working*/
+/*    box-shadow: 10px grey; */
+}
+
+
+
+#my_navbar {
+ background-color: #303030;
+font-family: "Courier Bold", Courier, monospace;
+font-weight: bold;
+color: #00FF00; /*not working*/
+}
+
+#my_footer {
+ background-color: #303030;
+font-family: "Courier Bold", Courier, monospace;  /*this one acts on the $HOME only*/
+font-weight: bold;
+ color: #00FF00;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #00FF00;    /*somehow this wins over my_nav and my_navbar... does the class win over the instance?*/
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #00FF00;  /*looking at the inspector I found how to have this override the rest*/
+}
+/*--------------------------------*/
+
+/* Landing page =================================== */
+
+.my_landing {
+/*    background: maroon url("http://www.math.ttu.edu/~gbornia/img/carol_of_lights.jpg") center center;*/  /*Questo e' un modo di scrivere diverse cose del background in modo compatto*/
+/*    background-color: rgba(0, 0, 0, 0.7);
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;*/
+  color:       white;
+/*   text-shadow: 0 1px 0 white, 0 0 5px white; */
+/* text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black; */
+/*     background-size: cover; */ /*this would make it a landing page*/
+
+}
+
+.my_title {
+ background-color: none; 
+ color:       white;
+   position: relative;
+     text-shadow: 0 1px 0 black, 0 0 5px black;
+
+}
+
+
+
+/* card games page =================================== */
+table.deck_table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.deck_table  td,th,tr {
+  padding-left:   10px;
+  padding-right:  10px;
+  padding-top:     5px;
+  padding-bottom:  5px;
+  border: 1px solid black;
+}
+
+.output { font-weight: bold; }           /* Calculated values in bold */
+
+.bar_chart rect {
+  fill: steelblue;
+}
+
+.bar_chart rect:hover { 
+    fill: red;
+}
+
+.bar_chart text {
+  fill: black;
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+
+/*.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}*/
+
+/* ALTERNATIVE 1: bar chart as a bunch of <div> elements */
+/* .bar_chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white; 
+} this was for the div element */
+
+
+/* ALTERNATIVE 2:  bar chart as a bunch of <li> elements */
+/* #histogram */
+/* { */
+/*    position:absolute;	 */
+/*    list-style:none; */
+/*    background:lightblue; */
+/*    width:400px;   */
+/*    height:250px; */
+/*    text-align:center; */
+/*    border:1px solid black; */
+/*    visibility: hidden; */
+/*    background-image:url(bar-shaded.png); */
+/*    background-repeat:repeat-y; */
+/* } */
+
+/* END CARD GAMES PAGE =========================== */
+
+
+/* PARALLAX CONTAINERS ====================================  */
+.parallax_container3 {
+/*     height: 100vh;  */
+    background-color: rgba(0, 0, 0, 0.3); /*the last number sets the transparency*/
+}
+
+.parallax_container {
+    height: 100px;
+}
+
+.parallax_container2 {
+    height: 10px;
+}
+
+.parallax_content {
+    background-image: url("./img/ttu_tower.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* ===================================================  */
+/* ===================================================  */
+/* ===================================================  */
+/* padding: what is inside the border */
+/* border */
+/* margin: what is outside the border */
