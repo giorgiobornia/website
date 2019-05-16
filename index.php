@@ -28,13 +28,13 @@
 <section id="my_home">
 
 
-<div class="my_landing  parallax_content">
+<div class="my_landing parallax_content">
  <div class="parallax_container3">   <!--id="" if you set more than one id then the FIRST ONE is taken-->
   <div class="container text-center">
 
   <br>
 
-  <img class="img-circle" src="./img/giorgio_bornia.jpg" alt="giorgio"> 
+  <img src="./img/giorgio_bornia.jpg" alt="giorgio" style=" border-radius : 30%; "> 
     <h1> Giorgio Bornia </h1>
     <h3> Assistant Professor </h3>
      <hr class="intro-divider">
@@ -74,18 +74,21 @@
 
 <div  class="container" >
 <br>
-<!-- Main content -->
- <span class="semester">
-- optimal control for partial differential equations<br>
-- fluid dynamics, multi-physics problems (fluid-structure interaction, magnetohydrodynamics, fluid flows in porous media) <br>
-- numerical analysis  <br>
-- finite element methods  <br>
-- multigrid and domain decomposition methods<br>
-- scientific computing, design of finite element software <br>
-- numerical linear algebra, preconditioning<br>
-- geometric PDEs
-</span>
 
+<!-- Main content -->
+
+ <ul>
+ <li> optimal control for partial differential equations </li>
+ <li>  fluid dynamics, multi-physics problems (fluid-structure interaction, magnetohydrodynamics, fluid flows in porous media)  </li>
+ <li>  numerical analysis  </li>
+ <li>  finite element methods   </li>
+ <li> multigrid and domain decomposition methods  </li>
+ <li> scientific computing, design of finite element software  </li>
+ <li> numerical linear algebra, preconditioning  </li>
+ <li> geometric PDEs </li>
+ </ul>
+
+ 
 <br>
 <br>
 
@@ -143,115 +146,106 @@
 
  At Texas Tech University: <br>
 
- <span class="semester"> Spring 2019, MATH 2360 - LINEAR ALGEBRA (Sections 012 and H01) </span>
-  <a href="./teaching/2019a_Spring_MATH2360/math2360.pdf" > syllabus </a>
-  <br>
  
- <span class="semester"> Fall 2018, MATH 4354 - DIFFERENTIAL EQUATIONS II </span>
-  <a href="./teaching/2018b_Fall_MATH4354/math4354.pdf" > syllabus </a>
-  <br>
+ <ul>
+ <li> Fall 2019, MATH 3350 - HIGHER MATHEMATICS FOR ENGINEERS AND SCIENTISTS I (Honors)
+<!--   <a href="./teaching/2019a_Spring_MATH2360/math2360.pdf" > syllabus </a>  -->
+  </li>
 
- <span class="semester"> Fall 2018, MATH 5344 - TOPICS IN NUMERICAL ANALYSIS I - FINITE ELEMENT METHODS </span>
-  <a href="./teaching/2018b_Fall_MATH5344/math5344.pdf" > syllabus </a>
-  <br>
+  <li> Fall 2019, MATH 3354 - DIFFERENTIAL EQUATIONS I 
+<!--   <a href="./teaching/2019a_Spring_MATH2360/math2360.pdf" > syllabus </a>  -->
+  </li>
+
+  <li> Spring 2019, MATH 2360 - LINEAR ALGEBRA (Sections 012 and H01) 
+  <a href="./teaching/2019a_Spring_MATH2360/math2360.pdf" > syllabus </a> </li>
+ 
+ <li> Fall 2018, MATH 4354 - DIFFERENTIAL EQUATIONS II
+  <a href="./teaching/2018b_Fall_MATH4354/math4354.pdf" > syllabus </a> </li>
+
+
+ <li> Fall 2018, MATH 5344 - TOPICS IN NUMERICAL ANALYSIS I - FINITE ELEMENT METHODS
+  <a href="./teaching/2018b_Fall_MATH5344/math5344.pdf" > syllabus </a> </li>
+
   
- <span class="semester"> Spring 2018, MATH 5335 - NUMERICAL ANALYSIS II </span>
-  <a href="./teaching/2018a_Spring_MATH5335/math5335.pdf" > syllabus </a>
-  <br>
+ <li> Spring 2018, MATH 5335 - NUMERICAL ANALYSIS II
+  <a href="./teaching/2018a_Spring_MATH5335/math5335.pdf" > syllabus </a> </li>
+
   
- <span class="semester"> Spring 2018, MATH 2360 - LINEAR ALGEBRA </span>
-  <a href="./teaching/2018a_Spring_MATH2360/math2360.pdf" > syllabus </a>
-  <br>
+ <li> Spring 2018, MATH 2360 - LINEAR ALGEBRA
+  <a href="./teaching/2018a_Spring_MATH2360/math2360.pdf" > syllabus </a> </li>
+
   
- <span class="semester"> Fall 2017, MATH 5334 - NUMERICAL ANALYSIS I </span>
-  <a href="./teaching/2017b_Fall_MATH5334/math5334.pdf" > syllabus </a>
-  <br>
+ <li> Fall 2017, MATH 5334 - NUMERICAL ANALYSIS I
+  <a href="./teaching/2017b_Fall_MATH5334/math5334.pdf" > syllabus </a> </li>
+
   
- <span class="semester"> Fall 2017, MATH 4354 - DIFFERENTIAL EQUATIONS II </span>
-  <a href="./teaching/2017b_Fall_MATH4354/math4354.pdf" > syllabus </a>
-  <br>
+ <li> Fall 2017, MATH 4354 - DIFFERENTIAL EQUATIONS II
+  <a href="./teaching/2017b_Fall_MATH4354/math4354.pdf" > syllabus </a> </li>
+
   
- <span class="semester"> Spring 2017, MATH 2360 - LINEAR ALGEBRA </span>
-  <a href="./teaching/2017a_Spring_MATH2360/math2360.pdf" > syllabus </a>
-  <br>
+ <li> Spring 2017, MATH 2360 - LINEAR ALGEBRA
+  <a href="./teaching/2017a_Spring_MATH2360/math2360.pdf" > syllabus </a> </li>
 
- <span class="semester"> Fall 2016, MATH 2360 - LINEAR ALGEBRA </span>
-  <a href="./teaching/2016b_Fall_MATH2360/math2360.pdf" > syllabus </a> 
-  <br>
 
- <span class="semester"> Spring 2016, MATH 5345 - TOPICS IN NUMERICAL ANALYSIS II </span>
- <a href="./teaching/2016a_Spring_MATH5345/math5345.pdf" > syllabus </a> 
- <br>
+ <li> Fall 2016, MATH 2360 - LINEAR ALGEBRA
+  <a href="./teaching/2016b_Fall_MATH2360/math2360.pdf" > syllabus </a> </li> 
 
- <span class="semester"> Spring 2016, MATH 4351 - ADVANCED CALCULUS II </span>
- <a href="./teaching/2016a_Spring_MATH4351/math4351.pdf" > syllabus </a>  
- <br>
 
- <span class="semester"> Fall 2015, MATH 5344 - TOPICS IN NUMERICAL ANALYSIS I  </span>
- <a href="./teaching/2015b_Fall_MATH5344/math5344.pdf" > syllabus </a>  
- <br>
+ <li> Spring 2016, MATH 5345 - TOPICS IN NUMERICAL ANALYSIS II
+ <a href="./teaching/2016a_Spring_MATH5345/math5345.pdf" > syllabus </a> </li> 
 
- <span class="semester">  Fall 2015, MATH 2360 - LINEAR ALGEBRA  </span>
- <a href="./teaching/2015b_Fall_MATH2360/math2360.pdf" > syllabus </a>  
- <br>
 
- <span class="semester"> Spring 2015, MATH 5335 - NUMERICAL ANALYSIS II </span>
- <a href="./teaching/2015a_Spring_MATH5335/math5335.pdf" > syllabus </a>  
- <br>
+ <li> Spring 2016, MATH 4351 - ADVANCED CALCULUS II
+ <a href="./teaching/2016a_Spring_MATH4351/math4351.pdf" > syllabus </a> </li>  
 
-<!-- <span class="semester"> Spring 2015, MATH 5099 - SCIENTIFIC PROGRAMMING AND FINITE ELEMENT METHODS (individual study)  </span> 
- <br>-->
 
- <span class="semester">  Fall 2014, MATH 5334 - NUMERICAL ANALYSIS I </span>
- <a href="./teaching/2014b_Fall_MATH5334/math5334.pdf" > syllabus </a>  
- <br>
+ <li> Fall 2015, MATH 5344 - TOPICS IN NUMERICAL ANALYSIS I 
+ <a href="./teaching/2015b_Fall_MATH5344/math5344.pdf" > syllabus </a> </li>  
 
- <span class="semester"> Fall 2014, MATH 4354 - DIFFERENTIAL EQUATIONS II </span>
- <a href="./teaching/2014b_Fall_MATH4354/math4354.pdf" > syllabus </a>  
- <br>
 
- <span class="semester">  Spring 2014, MATH 4350 - ADVANCED CALCULUS I  </span>
- <a href="./teaching/2014a_Spring_MATH4350/math4350.pdf" > syllabus </a> 
- <br>
+ <li>  Fall 2015, MATH 2360 - LINEAR ALGEBRA 
+ <a href="./teaching/2015b_Fall_MATH2360/math2360.pdf" > syllabus </a> </li>  
 
- <span class="semester"> Fall 2013, MATH 4354 - DIFFERENTIAL EQUATIONS II  </span>
- <a href="./teaching/2013b_Fall_MATH4354/math4354.pdf" > syllabus </a> 
- <br>
 
- <span class="semester"> Spring 2013, MATH 3350 - HIGHER MATHEMATICS FOR ENGINEERS AND SCIENTISTS I (sections 14 and 15)  </span>
- <a href="./teaching/2013a_Spring_MATH3350/math3350.pdf" > syllabus </a>  
- <br>
+ <li> Spring 2015, MATH 5335 - NUMERICAL ANALYSIS II
+ <a href="./teaching/2015a_Spring_MATH5335/math5335.pdf" > syllabus </a> </li>  
 
- <span class="semester">  Fall 2012, MATH 2450 - CALCULUS III WITH APPLICATIONS (sections 14 and 16) </span>
- <a href="./teaching/2012b_Fall_MATH2450/math2450.pdf" > syllabus </a> 
- <br>
+
+<!-- <li> Spring 2015, MATH 5099 - SCIENTIFIC PROGRAMMING AND FINITE ELEMENT METHODS (individual study)  
+-->
+
+ <li>  Fall 2014, MATH 5334 - NUMERICAL ANALYSIS I
+ <a href="./teaching/2014b_Fall_MATH5334/math5334.pdf" > syllabus </a> </li>  
+
+
+ <li> Fall 2014, MATH 4354 - DIFFERENTIAL EQUATIONS II
+ <a href="./teaching/2014b_Fall_MATH4354/math4354.pdf" > syllabus </a> </li>  
+
+
+ <li>  Spring 2014, MATH 4350 - ADVANCED CALCULUS I 
+ <a href="./teaching/2014a_Spring_MATH4350/math4350.pdf" > syllabus </a> </li> 
+
+
+ <li> Fall 2013, MATH 4354 - DIFFERENTIAL EQUATIONS II 
+ <a href="./teaching/2013b_Fall_MATH4354/math4354.pdf" > syllabus </a> </li> 
+
+
+ <li> Spring 2013, MATH 3350 - HIGHER MATHEMATICS FOR ENGINEERS AND SCIENTISTS I (sections 14 and 15) 
+ <a href="./teaching/2013a_Spring_MATH3350/math3350.pdf" > syllabus </a> </li>  
+
+
+ <li>  Fall 2012, MATH 2450 - CALCULUS III WITH APPLICATIONS (sections 14 and 16)
+ <a href="./teaching/2012b_Fall_MATH2450/math2450.pdf" > syllabus </a> </li> 
+
+ </ul>
 
  <br>
  At University of Bologna:<br>
 
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
- <span class="semester"> Fall 2011, FOUNDATIONS OF COMPUTER SCIENCE,  </span>
- Teaching Assistant  <br>
+ <li> Fall 2011, FOUNDATIONS OF COMPUTER SCIENCE, 
+ Teaching Assistant  </li>
  
-<br>
-
-
-
-<!--<strong> Fondamenti di Informatica T, A.A. 2011/2012 <br>
-Corso di Laurea in Ingegneria Meccanica <br>
-</strong>        
-
-<hr style="width: 100%; height: 2px;"><br>
-<a href="ErrCalcNum.pdf" > Errori in calcolo numerico</a>
-<br>
-<a href="zeros_conv_rate.c" > Ordine di convergenza zeri</a>
-<br>
-<a href="integrals_conv_rate.c" > Ordine di convergenza integrali</a>
-<br>
-
-<hr style="width: 100%; height: 2px;"><br>
-
-<a href="teaching/" > Qui trovate tutti i file </a>-->
 
 
 </div>

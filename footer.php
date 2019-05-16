@@ -1,4 +1,4 @@
-<footer class="container-fluid text-center" id="my_footer">
+<footer class="container-fluid text-center"  style="/* background-color: #303030;  font-family: 'Courier Bold', Courier, monospace;   color: #00FF00; */" >
 
 <!-- ========================================================== -->
 <!-- This link back to the top of the page has to be changed because this file is included in SEVERAL PAGES
