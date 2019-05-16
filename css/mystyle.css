@@ -159,7 +159,7 @@ table.deck_table  td,th,tr {
 }
 
 .parallax_content {
-    background-image: url("./img/ttu_tower.jpg");
+    background-image: url("../img/ttu_tower.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;

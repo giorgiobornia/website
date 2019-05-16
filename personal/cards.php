@@ -20,9 +20,12 @@
 
 <body>
 
+
 <?php 
 // include($mydepth . 'navbar.php');  
 ?>
+
+
 
  <div class="parallax_content parallax_container"> 
  <div class="container text-center my_title">
@@ -232,7 +235,7 @@ Play </button> number of matches: <input id="n_matches" type="number" min=1 valu
 
 <br>
 
- <svg class="bar_chart"></svg>  <!-- is the position of this important?!-->
+<svg class="bar_chart"></svg>  <!-- is the position of this important?!-->
 <!-- </canvas> -->
 
 <br>
