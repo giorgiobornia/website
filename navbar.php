@@ -26,7 +26,7 @@ aria-label="Toggle navigation"
 
 <div class="collapse navbar-collapse"  id="my_navbar" style="color: #00FF00; font-family: 'Courier Bold', Courier, monospace; ">
 
-<ul class="navbar-nav">
+<ul class="navbar-nav ml-auto">
   <li class="nav-item"><a class="nav-link" style="font-family: 'Courier Bold', Courier, monospace; "  href="#my_research"> research(); </a></li> <!--"title=" for hovering message with pointer, not important for smartphones -->
   <li class="nav-item"><a class="nav-link" style="font-family: 'Courier Bold', Courier, monospace; "  href="#my_teaching"> teaching(); </a></li> <!-- DIFFERENCE with FULL LINK and only LOCAL LINK for scrolling...http://www.math.ttu.edu/~gbornia/index.php#my_teaching-->
   <li class="nav-item"><a class="nav-link" style="font-family: 'Courier Bold', Courier, monospace; "  href="#my_personal"> personal(); </a></li> 
