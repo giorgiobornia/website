@@ -36,7 +36,7 @@
 
   <img src="./img/giorgio_bornia.jpg" alt="giorgio" style=" border-radius : 30%; "> 
     <h1> Giorgio Bornia </h1>
-    <h3> Assistant Professor </h3>
+    <h3> Associate Professor </h3>
      <hr class="intro-divider">
     <h3> Department of Mathematics and Statistics </h3>
     <h3> Texas Tech University </h3>
@@ -82,10 +82,11 @@
  <li>  fluid dynamics, multi-physics problems (fluid-structure interaction, magnetohydrodynamics, fluid flows in porous media)  </li>
  <li>  numerical analysis  </li>
  <li>  finite element methods   </li>
+ <li>  boundary element methods   </li>
  <li> multigrid and domain decomposition methods  </li>
  <li> scientific computing, design of finite element software  </li>
  <li> numerical linear algebra, preconditioning  </li>
- <li> geometric PDEs </li>
+<!--  <li> geometric PDEs </li> -->
  </ul>
 
  
@@ -148,12 +149,21 @@
 
  
  <ul>
+ 
+ <li> Spring 2020, MATH 4330 - MATHEMATICAL COMPUTING
+  <a href="./teaching/2020a_spring_math4330.pdf" > syllabus </a> 
+  </li>
+  
+ <li> Spring 2020, MATH 3350 - HIGHER MATHEMATICS FOR ENGINEERS AND SCIENTISTS I (Honors)
+  <a href="./teaching/2020a_spring_math3350.pdf" > syllabus </a> 
+  </li>
+
   <li> Fall 2019, MATH 3354 - DIFFERENTIAL EQUATIONS I 
-<!--   <a href="./teaching/2019b_fall_math3354.pdf" > syllabus </a>  -->
+  <a href="./teaching/2019b_fall_math3354.pdf" > syllabus </a> 
   </li>
 
  <li> Fall 2019, MATH 3350 - HIGHER MATHEMATICS FOR ENGINEERS AND SCIENTISTS I (Honors)
-<!--   <a href="./teaching/2019b_fall_math3350.pdf" > syllabus </a>  -->
+  <a href="./teaching/2019b_fall_math3350.pdf" > syllabus </a> 
   </li>
 
   <li> Spring 2019, MATH 2360 - LINEAR ALGEBRA (Sections 012 and H01) 

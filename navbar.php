@@ -31,7 +31,7 @@ aria-label="Toggle navigation"
   <li class="nav-item"><a class="nav-link" style="font-family: 'Courier Bold', Courier, monospace; "  href="#my_teaching"> teaching(); </a></li> <!-- DIFFERENCE with FULL LINK and only LOCAL LINK for scrolling...http://www.math.ttu.edu/~gbornia/index.php#my_teaching-->
   <li class="nav-item"><a class="nav-link" style="font-family: 'Courier Bold', Courier, monospace; "  href="#my_personal"> personal(); </a></li> 
 <!--   <li><a href="http://femttu.github.io/">./software</a></li> -->
-  <li class="nav-item"><a class="nav-link" style="font-family: 'Courier Bold', Courier, monospace; "  href="http://www.math.ttu.edu/colloquia_and_seminars/"> ttu_colloquia_and_seminars(); </a></li>
+  <li class="nav-item"><a class="nav-link" style="font-family: 'Courier Bold', Courier, monospace; "  href="http://www.math.ttu.edu/events/"> ttu_math_events(); </a></li>
 <!-- here I need to provide ABSOLUTE PATHS because this navigation bar 
 is included by files in several positions... -->
 <!-- Or I should do some php with a variable...-->
